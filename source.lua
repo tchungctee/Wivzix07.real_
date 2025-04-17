@@ -3673,8 +3673,8 @@ function RayfieldLibrary:LoadConfiguration()
 		end)
 
 		if success and loaded and not notified then
-			RayfieldLibrary:Notify({Title = "LunarAbyss Welcome", Content = "Hello From LunarAbyssVN.",  Image = 4400697855})
-			RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "The configuration file for this script has been loaded from a previous session.", Image = 4384403532})
+			RayfieldLibrary:Notify({Title = "LunarAbyss Welcome", Content = "Hello From LunarAbyssVN.",  Image = 4384403532})
+			--RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "The configuration file for this script has been loaded from a previous session.", Image = 4384403532})
 		elseif not success and not notified then
 			warn('Rayfield Configurations Error | '..tostring(result))
 			RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "We've encountered an issue loading your configuration correctly.\n\nCheck the Developer Console for more information.", Image = 4384402990})
