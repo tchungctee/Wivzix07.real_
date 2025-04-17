@@ -1561,7 +1561,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Interface Suite"
 
 	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Rayfield UI"
+		LoadingFrame.Version.Text = "LunarAbyssVN"
 	end
 
 	if Settings.Icon and Settings.Icon ~= 0 and Topbar:FindFirstChild('Icon') then
@@ -1611,8 +1611,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(180, 600))
 				RayfieldLibrary:Notify({
-					Title = "Rayfield Interface",
-					Content = "Enjoying this UI library? Find it at sirius.menu/discord",
+					Title = "Wivzix Interface",
+					Content = "Make From LunarAbyssVN",
 					Duration = 7,
 					Image = 4370033185,
 				})
